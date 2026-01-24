@@ -13,7 +13,7 @@ The goal is to analyze customer behavior, churn, upgrades, and plan trends.
 
 Q1: Total Customers
 
- Q1_TotalCustomers.png
+Q10_AvgDays30Period.png
 
 Count of unique customers.
 
