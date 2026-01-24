@@ -1,86 +1,93 @@
-Case Study 3 – Foodie-Fi
+Case Study 3 – Foodie-Fi Subscription Analysis
 
 📌 Dataset
-This case study uses a Foodie-Fi subscription dataset with two tables:
+This case study uses the Foodie-Fi subscription dataset with two tables:
 
-plans – Subscription plan details
+plans – Plan details (trial, monthly, annual, churn, etc.)
 
-subscriptions – Customer subscription history
+subscriptions – Customer subscription events with plan_id and start_date
 
-We analyze the data to answer real-world business questions about customer behavior, churn, upgrades, and time-based subscription patterns.
+The goal is to analyze customer behavior, churn, upgrades, and plan trends.
 
-📈 Focus: Ranking, Aggregation & Conditional Analysis
-Key points of this project:
+📈 Analysis Questions & Screenshots
 
-Count and rank customers by subscription actions
+Q1: Total Customers
 
-Analyze plan upgrades and downgrades
+Image: Q1_TotalCustomers.png
 
-Calculate churn rates and percentages
-
-Track time to upgrade to annual plans
-
-Analyze monthly and weekly trends
-
-✅ Results
-All 11 questions were solved successfully using SQL window functions, aggregation, and conditional statements.
-Insights include customer counts, churn patterns, subscription breakdowns, and plan upgrades/downgrades.
-
-🏆 Learnings / Skills
-
-Date Functions: extracting month/year, calculating periods
-
-Conditional Aggregation: use of CASE statements for categories
-
-Ranking & Window Functions: calculating row numbers, ranks, and cumulative counts
-
-Percentage Calculations: compute accurate percentages for reporting
-
-Customer Behavior Analysis: track churn, upgrades, and downgrades
-
-Data Cleaning & Filtering: exclude trial or null plans for precise insights
-
-Results Screenshots
-Q1: How many customers has Foodie-Fi ever had?
-
-Screenshot: Q1_TotalCustomers.png
+Count of unique customers.
 
 Q2: Monthly distribution of trial plan start_date
 
-Screenshot: Q2_TrialMonthly.png
+Image: Q2_TrialMonthly.png
+
+Shows the number of trial subscriptions starting each month.
 
 Q3: Plan start_date values after 2020, breakdown by plan_name
 
-Screenshot: Q3_PlansAfter2020.png
+Image: Q3_PlansAfter2020.png
+
+Count of subscription events per plan for dates after 2020.
 
 Q4: Customer count & percentage of churned customers
 
-Screenshot: Q4_ChurnedCustomers.png
+Image: Q4_ChurnedCustomers.png
+
+How many customers churned and their percentage.
 
 Q5: Customers who churned straight after initial trial
 
-Screenshot: Q5_ChurnAfterTrial.png
+Image: Q5_ChurnAfterTrial.png
+
+Count and percentage of customers who left after trial.
 
 Q6: Number and percentage of customer plans after initial trial
 
-Screenshot: Q6_PlansAfterTrial.png
+Image: Q6_PlansAfterTrial.png
+
+Count and percentage breakdown of all plans after trial.
 
 Q7: Customer count & percentage breakdown of all 5 plan_name values at 2020-12-31
 
-Screenshot: Q7_PlansBreakdown_20201231.png
+Image: Q7_PlansBreakdown_20201231.png
 
-Q8: How many customers upgraded to an annual plan in 2020
+Snapshot of plans held by customers at end of 2020.
 
-Screenshot: Q8_AnnualUpgrade_2020.png
+Q8: Customers upgraded to annual plan in 2020
+
+Image: Q8_AnnualUpgrade_2020.png
+
+Count of customers who upgraded to an annual plan in 2020.
 
 Q9: Average days to upgrade to an annual plan from joining
 
-Screenshot: Q9_AvgDaysToAnnual.png
+Image: Q9_AvgDaysToAnnual.png
 
-Q10: Breakdown of avg days into 30-day periods
+Average number of days for a customer to move to an annual plan.
 
-Screenshot: Q10_AvgDays30Period.png
+Q10: Breakdown of average days into 30-day periods
+
+Image: Q10_AvgDays30Period.png
+
+Groups customers by how long it took to upgrade (0-30, 31-60, 61-90, 91+ days).
 
 Q11: Customers downgraded from pro monthly to basic monthly in 2020
 
-Screenshot: Q11_Downgrades2020.png
+Image: Q11_Downgrades2020.png
+
+Count and percentage of customers who downgraded plans.
+
+✅ Results
+All questions were successfully analyzed. Insights include churn behavior, trial conversion, upgrades, and downgrades.
+
+🏆 Learnings & Skills
+
+Using window functions (LAG) to track previous plans
+
+Calculating percentages and averages from event tables
+
+Analyzing customer behavior over time
+
+Understanding subscription lifecycle (trial → paid → churn)
+
+Presenting SQL results with clear visualizations
