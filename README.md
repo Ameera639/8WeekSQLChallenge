@@ -1,4 +1,4 @@
-# 8 Week SQL Challenge - Danny's Diner Case Study
+# 8 Week SQL Challenge 
 
 ## Project Description
 This project contains my solutions for the 8 Week SQL Challenge – Case Study #1 (Danny's Diner).
