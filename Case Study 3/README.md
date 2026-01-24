@@ -23,7 +23,7 @@ Track time to upgrade to annual plans
 Analyze monthly and weekly trends
 
 ✅ Results
-All questions were solved successfully using SQL window functions, aggregation, and conditional statements.
+All 11 questions were solved successfully using SQL window functions, aggregation, and conditional statements.
 Insights include customer counts, churn patterns, subscription breakdowns, and plan upgrades/downgrades.
 
 🏆 Learnings / Skills
@@ -36,45 +36,51 @@ Ranking & Window Functions: calculating row numbers, ranks, and cumulative count
 
 Percentage Calculations: compute accurate percentages for reporting
 
-Analyzing customer subscription behavior
+Customer Behavior Analysis: track churn, upgrades, and downgrades
+
+Data Cleaning & Filtering: exclude trial or null plans for precise insights
 
 Results Screenshots
 Q1: How many customers has Foodie-Fi ever had?
 
-Screenshot: Q1_Total_Customers.png
+Screenshot: Q1_TotalCustomers.png
 
 Q2: Monthly distribution of trial plan start_date
 
-Screenshot: Q2_Trial_Monthly.png
+Screenshot: Q2_TrialMonthly.png
 
-Q3: Plan start_date values after 2020, by plan_name
+Q3: Plan start_date values after 2020, breakdown by plan_name
 
-Screenshot: Q3_Post2020_Plans.png
+Screenshot: Q3_PlansAfter2020.png
 
-Q4: Customer count & percentage who churned
+Q4: Customer count & percentage of churned customers
 
-Screenshot: Q4_Churned_Customers.png
+Screenshot: Q4_ChurnedCustomers.png
 
-Q5: Customers who churned after trial & percentage
+Q5: Customers who churned straight after initial trial
 
-Screenshot: Q5_Churn_After_Trial.png
+Screenshot: Q5_ChurnAfterTrial.png
 
-Q6: Number & percentage of customer plans after trial
+Q6: Number and percentage of customer plans after initial trial
 
-Screenshot: Q6_Plans_After_Trial.png
+Screenshot: Q6_PlansAfterTrial.png
 
-Q7: Customer count & percentage for all plans at 2020-12-31
+Q7: Customer count & percentage breakdown of all 5 plan_name values at 2020-12-31
 
-Screenshot: Q7_Plan_Breakdown_2020-12-31.png
+Screenshot: Q7_PlansBreakdown_20201231.png
 
-Q8: Customers upgraded to annual plan in 2020
+Q8: How many customers upgraded to an annual plan in 2020
 
-Screenshot: Q8_Annual_Upgrade_2020.png
+Screenshot: Q8_AnnualUpgrade_2020.png
 
-Q9: Average days to annual plan & 30-day breakdown
+Q9: Average days to upgrade to an annual plan from joining
 
-Screenshot: Q9_Annual_Plan_30days.png
+Screenshot: Q9_AvgDaysToAnnual.png
 
-Q10: Customers downgraded from pro monthly to basic monthly in 2020
+Q10: Breakdown of avg days into 30-day periods
 
-Screenshot: Q10_Downgrade_Pro_to_Basic_2020.png
+Screenshot: Q10_AvgDays30Period.png
+
+Q11: Customers downgraded from pro monthly to basic monthly in 2020
+
+Screenshot: Q11_Downgrades2020.png
