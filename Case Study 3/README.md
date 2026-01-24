@@ -9,11 +9,25 @@ subscriptions – Customer subscription events with plan_id and start_date
 
 The goal is to analyze customer behavior, churn, upgrades, and plan trends.
 
+✅ Results
+All questions were successfully analyzed. Insights include churn behavior, trial conversion, upgrades, and downgrades.
+
+🏆 Learnings & Skills
+
+Using window functions (LAG) to track previous plans
+
+Calculating percentages and averages from event tables
+
+Analyzing customer behavior over time
+
+Understanding subscription lifecycle (trial → paid → churn)
+
+
 📈 Analysis Questions & Screenshots
 
 Q1: Total Customers
 
-Q10_AvgDays30Period.png
+Q1_TotalCustomers.png
 
 Count of unique customers.
 
@@ -75,19 +89,8 @@ Q11: Customers downgraded from pro monthly to basic monthly in 2020
 
  Q11_Downgrades2020.png
 
-Count and percentage of customers who downgraded plans.
 
-✅ Results
-All questions were successfully analyzed. Insights include churn behavior, trial conversion, upgrades, and downgrades.
 
-🏆 Learnings & Skills
 
-Using window functions (LAG) to track previous plans
-
-Calculating percentages and averages from event tables
-
-Analyzing customer behavior over time
-
-Understanding subscription lifecycle (trial → paid → churn)
 
 Presenting SQL results with clear visualizations
