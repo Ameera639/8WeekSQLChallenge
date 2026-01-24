@@ -80,4 +80,4 @@ In the first week after a customer joins the program (including their join date)
 
 
 
-GROUP BY customer_id
+
