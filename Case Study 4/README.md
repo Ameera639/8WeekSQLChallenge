@@ -27,7 +27,6 @@ Understanding data allocation strategies based on balance and interest
 Working with common table expressions (CTEs) for step-by-step calculations
 
 
-
 A. Customer Nodes Exploration
 
 
@@ -51,9 +50,9 @@ A. Customer Nodes Exploration
 <img width"1866" height"621" alt"Monthly interest based on daily balance (annual rate 6%, no compounding)" src"https://github.com/user-attachments/assets/fe90ff2e-9567-48b7-aa80-f17accacbf3e" />
 
 
-/* 
+
 B. Customer Transactions
- */
+
 
 
 
