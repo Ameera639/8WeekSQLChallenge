@@ -32,22 +32,22 @@ A. Customer Nodes Exploration
 
  1️⃣ How many unique nodes are there on the Data Bank system?
 
-<img width"1916" height"178" alt"How many unique nodes are there on the Data Bank system" src"https://github.com/user-attachments/assets/b289c89d-3fad-4798-9cb3-673b5954b90e" />
+<img width"1916" height"178" alt"How many unique nodes are there on the Data Bank system" src"https://github.com/user-attachments/assets/b289c89d-3fad-4798-9cb3-673b5954b90e
 
  3️⃣ How many customers are allocated to each region?
 
-<img width"1884" height"355" alt"Median, 80th, and 95th percentile for reallocation days per region" src"https://github.com/user-attachments/assets/face829f-b642-4c17-ba03-9eced588a61d" />
+<img width"1884" height"355" alt"Median, 80th, and 95th percentile for reallocation days per region" src"https://github.com/user-attachments/assets/face829f-b642-4c17-ba03-9eced588a61d
 
  4️⃣ How many days on average are customers reallocated to a different node?
 
-<img width"1891" height"660" alt"Min, average, and maximum values of running balance per customer" src"https://github.com/user-attachments/assets/5224bf52-9654-469f-b007-027230c19d86" />
+<img width"1891" height"660" alt"Min, average, and maximum values of running balance per customer" src"https://github.com/user-attachments/assets/5224bf52-9654-469f-b007-027230c19d86
 
 
  5️⃣ Median, 80th, and 95th percentile for reallocation days per region
 
 
 
-<img width"1866" height"621" alt"Monthly interest based on daily balance (annual rate 6%, no compounding)" src"https://github.com/user-attachments/assets/fe90ff2e-9567-48b7-aa80-f17accacbf3e" />
+<img width"1866" height"621" alt"Monthly interest based on daily balance (annual rate 6%, no compounding)" src"https://github.com/user-attachments/assets/fe90ff2e-9567-48b7-aa80-f17accacbf3e
 
 
 
@@ -58,7 +58,7 @@ B. Customer Transactions
 
 1️⃣ What is the unique count and total amount for each transaction type?
 
-<img width"1871" height"171" alt"Percentage of customers who increase closing balance by 5%" src"https://github.com/user-attachments/assets/e5bd2c0e-d03d-4e27-b934-db94d1f39dc0" />
+<img width"1871" height"171" alt"Percentage of customers who increase closing balance by 5%" src"https://github.com/user-attachments/assets/e5bd2c0e-d03d-4e27-b934-db94d1f39dc0
 
 
 
@@ -69,7 +69,7 @@ B. Customer Transactions
 
 
 
-<img width"1897" height"658" alt"Running customer balance including impact of each transaction" src"https://github.com/user-attachments/assets/1da7e206-e8bf-4630-9156-2c875482f79f" />
+<img width"1897" height"658" alt"Running customer balance including impact of each transaction" src"https://github.com/user-attachments/assets/1da7e206-e8bf-4630-9156-2c875482f79f
 
 
 
@@ -79,14 +79,14 @@ B. Customer Transactions
 
 
 
-<img width"1874" height"281" alt"Unique count and total amount for each transaction type" src"https://github.com/user-attachments/assets/00318661-f0cf-49d1-b760-7e48e1e0a544" />
+<img width"1874" height"281" alt"Unique count and total amount for each transaction type" src"https://github.com/user-attachments/assets/00318661-f0cf-49d1-b760-7e48e1e0a544
 
 
 4️⃣ What is the closing balance for each customer 
    at the end of each month?
 
 
-<img width"1871" height"171" alt"Percentage of customers who increase closing balance by 5%" src"https://github.com/user-attachments/assets/e23b0ffa-2de8-4d4e-906f-44ec2136a594" />
+<img width"1871" height"171" alt"Percentage of customers who increase closing balance by 5%" src"https://github.com/user-attachments/assets/e23b0ffa-2de8-4d4e-906f-44ec2136a594
 
 
 
@@ -94,7 +94,7 @@ B. Customer Transactions
    their closing balance by more than 5% month-over-month?
 
 
- <img width"1866" height"621" alt"Monthly interest based on daily balance (annual rate 6%, no compounding)" src"https://github.com/user-attachments/assets/1117ba82-c0c3-4b1b-9505-2116ae75cc17" />
+ <img width"1866" height"621" alt"Monthly interest based on daily balance (annual rate 6%, no compounding)" src"https://github.com/user-attachments/assets/1117ba82-c0c3-4b1b-9505-2116ae75cc17
 
 
  
@@ -106,7 +106,7 @@ B. Customer Transactions
 
  2️⃣ Min, average, and maximum values of running balance per customer
 
-<img width"1891" height"660" alt"Min, average, and maximum values of running balance per customer" src"https://github.com/user-attachments/assets/66614166-fd64-4d38-b9ca-398a09bdb48e" />
+<img width"1891" height"660" alt"Min, average, and maximum values of running balance per customer" src"https://github.com/user-attachments/assets/66614166-fd64-4d38-b9ca-398a09bdb48e
 
 
  
@@ -115,7 +115,7 @@ B. Customer Transactions
 
  1️⃣ Monthly interest based on daily balance (annual rate 6%, no compounding)
 
-<img width"1884" height"355" alt"Median, 80th, and 95th percentile for reallocation days per region" src"https://github.com/user-attachments/assets/dbbb9035-1be8-4271-b3cd-188ca4b73b34" />
+<img width"1884" height"355" alt"Median, 80th, and 95th percentile for reallocation days per region" src"https://github.com/user-attachments/assets/dbbb9035-1be8-4271-b3cd-188ca4b73b34
 
 
 
