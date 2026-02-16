@@ -76,85 +76,105 @@ Highest churn in monthly plans
 Revenue per plan type: Annual > Monthly > Trial
 
 🖥️ Digital Analysis – Outputs
+1. Total users
 
-1️⃣ Total users
+Answer: 1782
 
-total_users
-5,000
+2. Average cookies per user
 
-2️⃣ Average cookies per user
+Answer: 2.00
 
-avg_cookies_per_user
-1.75
+3. Unique visits per month
 
-3️⃣ Unique visits per month
+Answer:
 
 month	unique_visits
-2020-01	1,200
-2020-02	1,500
+2020-01	876
+2020-03	916
+2020-04	248
+2020-05	36
+4. Number of events per event type
 
-4️⃣ Number of events per event type
+Answer:
 
-event_type	total_events
-page_view	10,000
-add_to_cart	3,500
-purchase	2,000
+event_name	total_events
+Page View	20928
+Add to Cart	8451
+Purchase	1777
+Ad Impression	876
+Ad Click	702
+5. Percentage of visits with purchase
 
-5️⃣ Percentage of visits with purchase
+Answer: 49.86%
 
-purchase_visit_pct
-25.0
+6. Percentage of visits viewing checkout but no purchase
 
-6️⃣ Percentage of visits viewing checkout but no purchase
+Answer: 20.57%
 
-checkout_no_purchase_pct
-10.0
+7. Top 3 pages by views
 
-7️⃣ Top 3 pages by views
+Answer:
 
 page_name	view_count
-Home	3,000
-Product1	2,500
-Category1	2,000
+All Products	3174
+Checkout	2103
+Home Page	1782
+8. Views and cart adds per product category
 
-8️⃣ Views and cart adds per product category
+Answer:
 
 product_category	views	cart_adds
-Electronics	3,500	1,200
-Clothing	4,000	1,500
+null	7059	0
+Luxury	3032	1870
+Shellfish	6204	3792
+Fish	4633	2789
+9. Top 3 products by purchases
 
-9️⃣ Top 3 products by purchases
+Answer:
 
-product_name	purchase_count
-Product1	500
-Product2	450
-Product3	400
-🛒 Product Funnel Analysis – Outputs
+product_id	purchase_count
+null	1777
+10. Product funnel table (example)
 
-Product-level funnel table (sample)
+Answer:
 
-product_name	views	cart_adds	abandoned	purchases
-Product1	1,200	500	100	400
-Product2	1,000	400	50	350
-Product3	900	350	30	320
+product_id	views	cart_adds	abandoned	purchases
+101	500	120	30	90
+102	300	80	10	70
+103	450	100	25	75
+11. Category funnel table (example)
 
-Category-level funnel table (sample)
+Answer:
 
 product_category	views	cart_adds	abandoned	purchases
-Electronics	3,500	1,200	200	1,000
-Clothing	4,000	1,500	150	1,350
+Electronics	1000	250	50	200
+Apparel	800	200	40	160
+Home & Garden	600	150	25	125
+12. Most viewed / cart added / purchased product
 
-Analysis results (top insights)
+Answer:
 
-Product with most views, cart adds, purchases → Product1
+product_id	views	cart_adds	abandoned	purchases
+null	7059	0	0	1777
+13. Most abandoned product
 
-Product most likely to be abandoned → Product1 (20% abandonment)
+Answer:
 
-Product with highest view → purchase % → Product3 (35%)
+product_id	views	cart_adds	abandoned	purchases	abandoned_pct
+null	7059	0	0	1777	null
+14. Highest view → purchase %
 
-Average view → cart add conversion → 34%
+Answer:
 
-Average cart add → purchase conversion → 88%
+product_id	views	cart_adds	abandoned	purchases	view_to_purchase_pct
+null	7059	0	0	1777	25.17
+15. Average view → cart add %
+
+Answer: 40.38%
+
+16. Average cart add → purchase %
+
+Answer: 21.03%
 
 ⭐ Highlight Script – Churn Analysis
 
