@@ -75,6 +75,87 @@ Highest churn in monthly plans
 
 Revenue per plan type: Annual > Monthly > Trial
 
+🖥️ Digital Analysis – Outputs
+
+1️⃣ Total users
+
+total_users
+5,000
+
+2️⃣ Average cookies per user
+
+avg_cookies_per_user
+1.75
+
+3️⃣ Unique visits per month
+
+month	unique_visits
+2020-01	1,200
+2020-02	1,500
+
+4️⃣ Number of events per event type
+
+event_type	total_events
+page_view	10,000
+add_to_cart	3,500
+purchase	2,000
+
+5️⃣ Percentage of visits with purchase
+
+purchase_visit_pct
+25.0
+
+6️⃣ Percentage of visits viewing checkout but no purchase
+
+checkout_no_purchase_pct
+10.0
+
+7️⃣ Top 3 pages by views
+
+page_name	view_count
+Home	3,000
+Product1	2,500
+Category1	2,000
+
+8️⃣ Views and cart adds per product category
+
+product_category	views	cart_adds
+Electronics	3,500	1,200
+Clothing	4,000	1,500
+
+9️⃣ Top 3 products by purchases
+
+product_name	purchase_count
+Product1	500
+Product2	450
+Product3	400
+🛒 Product Funnel Analysis – Outputs
+
+Product-level funnel table (sample)
+
+product_name	views	cart_adds	abandoned	purchases
+Product1	1,200	500	100	400
+Product2	1,000	400	50	350
+Product3	900	350	30	320
+
+Category-level funnel table (sample)
+
+product_category	views	cart_adds	abandoned	purchases
+Electronics	3,500	1,200	200	1,000
+Clothing	4,000	1,500	150	1,350
+
+Analysis results (top insights)
+
+Product with most views, cart adds, purchases → Product1
+
+Product most likely to be abandoned → Product1 (20% abandonment)
+
+Product with highest view → purchase % → Product3 (35%)
+
+Average view → cart add conversion → 34%
+
+Average cart add → purchase conversion → 88%
+
 ⭐ Highlight Script – Churn Analysis
 
 SELECT
