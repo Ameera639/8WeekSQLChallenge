@@ -76,6 +76,8 @@ Highest churn in monthly plans
 Revenue per plan type: Annual > Monthly > Trial
 
 ⭐ Highlight Script – Churn Analysis
+
+
 SELECT
     plan_id,
     COUNT(customer_id) AS total_customers,
