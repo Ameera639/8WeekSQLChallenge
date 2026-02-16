@@ -77,7 +77,6 @@ Revenue per plan type: Annual > Monthly > Trial
 
 ⭐ Highlight Script – Churn Analysis
 
-
 SELECT
     plan_id,
     COUNT(customer_id) AS total_customers,
@@ -85,6 +84,7 @@ SELECT
     ROUND(SUM(CASE WHEN status='Churned' THEN 1 ELSE 0 END)/COUNT(customer_id)*100,2) AS churn_rate
 FROM subscriptions
 GROUP BY plan_id;
+
 
 
 Why this script is important:
