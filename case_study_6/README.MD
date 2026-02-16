@@ -76,105 +76,87 @@ Highest churn in monthly plans
 Revenue per plan type: Annual > Monthly > Trial
 
 🖥️ Digital Analysis – Outputs
-1. Total users
 
-Answer: 1782
+| Question                 | Answer |
+| ------------------------ | ------ |
+| Total users              | 1782   |
+| Average cookies per user | 2.00   |
 
-2. Average cookies per user
 
-Answer: 2.00
+| Question                | month   | unique_visits |
+| ----------------------- | ------- | ------------- |
+| Unique visits per month | 2020-01 | 876           |
+|                         | 2020-03 | 916           |
+|                         | 2020-04 | 248           |
+|                         | 2020-05 | 36            |
 
-3. Unique visits per month
 
-Answer:
+| Question                        | event_name    | total_events |
+| ------------------------------- | ------------- | ------------ |
+| Number of events per event type | Page View     | 20928        |
+|                                 | Add to Cart   | 8451         |
+|                                 | Purchase      | 1777         |
+|                                 | Ad Impression | 876          |
+|                                 | Ad Click      | 702          |
 
-month	unique_visits
-2020-01	876
-2020-03	916
-2020-04	248
-2020-05	36
-4. Number of events per event type
 
-Answer:
+| Question                                              | Answer |
+| ----------------------------------------------------- | ------ |
+| Percentage of visits with purchase                    | 49.86% |
+| Percentage of visits viewing checkout but no purchase | 20.57% |
 
-event_name	total_events
-Page View	20928
-Add to Cart	8451
-Purchase	1777
-Ad Impression	876
-Ad Click	702
-5. Percentage of visits with purchase
 
-Answer: 49.86%
+| Question             | page_name    | view_count |
+| -------------------- | ------------ | ---------- |
+| Top 3 pages by views | All Products | 3174       |
+|                      | Checkout     | 2103       |
+|                      | Home Page    | 1782       |
 
-6. Percentage of visits viewing checkout but no purchase
 
-Answer: 20.57%
+| Question                                 | product_category | views | cart_adds |
+| ---------------------------------------- | ---------------- | ----- | --------- |
+| Views and cart adds per product category | null             | 7059  | 0         |
+|                                          | Luxury           | 3032  | 1870      |
+|                                          | Shellfish        | 6204  | 3792      |
+|                                          | Fish             | 4633  | 2789      |
 
-7. Top 3 pages by views
+| Question                    | product_id | purchase_count |
+| --------------------------- | ---------- | -------------- |
+| Top 3 products by purchases | null       | 1777           |
 
-Answer:
 
-page_name	view_count
-All Products	3174
-Checkout	2103
-Home Page	1782
-8. Views and cart adds per product category
+| Question                       | product_id | views | cart_adds | abandoned | purchases |
+| ------------------------------ | ---------- | ----- | --------- | --------- | --------- |
+| Product funnel table (example) | 101        | 500   | 120       | 30        | 90        |
+|                                | 102        | 300   | 80        | 10        | 70        |
+|                                | 103        | 450   | 100       | 25        | 75        |
 
-Answer:
 
-product_category	views	cart_adds
-null	7059	0
-Luxury	3032	1870
-Shellfish	6204	3792
-Fish	4633	2789
-9. Top 3 products by purchases
+| Question                        | product_category | views | cart_adds | abandoned | purchases |
+| ------------------------------- | ---------------- | ----- | --------- | --------- | --------- |
+| Category funnel table (example) | Electronics      | 1000  | 250       | 50        | 200       |
+|                                 | Apparel          | 800   | 200       | 40        | 160       |
+|                                 | Home & Garden    | 600   | 150       | 25        | 125       |
 
-Answer:
 
-product_id	purchase_count
-null	1777
-10. Product funnel table (example)
+| Question                                     | product_id | views | cart_adds | abandoned | purchases |
+| -------------------------------------------- | ---------- | ----- | --------- | --------- | --------- |
+| Most viewed / cart added / purchased product | null       | 7059  | 0         | 0         | 1777      |
 
-Answer:
+| Question               | product_id | views | cart_adds | abandoned | purchases | abandoned_pct |
+| ---------------------- | ---------- | ----- | --------- | --------- | --------- | ------------- |
+| Most abandoned product | null       | 7059  | 0         | 0         | 1777      | null          |
 
-product_id	views	cart_adds	abandoned	purchases
-101	500	120	30	90
-102	300	80	10	70
-103	450	100	25	75
-11. Category funnel table (example)
 
-Answer:
+| Question                  | product_id | views | cart_adds | abandoned | purchases | view_to_purchase_pct |
+| ------------------------- | ---------- | ----- | --------- | --------- | --------- | -------------------- |
+| Highest view → purchase % | null       | 7059  | 0         | 0         | 1777      | 25.17                |
 
-product_category	views	cart_adds	abandoned	purchases
-Electronics	1000	250	50	200
-Apparel	800	200	40	160
-Home & Garden	600	150	25	125
-12. Most viewed / cart added / purchased product
+| Question                      | Answer |
+| ----------------------------- | ------ |
+| Average view → cart add %     | 40.38% |
+| Average cart add → purchase % | 21.03% |
 
-Answer:
-
-product_id	views	cart_adds	abandoned	purchases
-null	7059	0	0	1777
-13. Most abandoned product
-
-Answer:
-
-product_id	views	cart_adds	abandoned	purchases	abandoned_pct
-null	7059	0	0	1777	null
-14. Highest view → purchase %
-
-Answer:
-
-product_id	views	cart_adds	abandoned	purchases	view_to_purchase_pct
-null	7059	0	0	1777	25.17
-15. Average view → cart add %
-
-Answer: 40.38%
-
-16. Average cart add → purchase %
-
-Answer: 21.03%
 
 ⭐ Highlight Script – Churn Analysis
 
